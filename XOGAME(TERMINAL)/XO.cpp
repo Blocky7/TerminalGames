@@ -183,10 +183,10 @@ int main()
             break;
         }
         cube = cube == 'X'? 'O' : 'X';
-        system("clear");
+        system("cls");
     }
     omg.close();
-    ofstream omg2("/Users/danik/Desktop/XOGAME/table.txt");
+    ofstream omg2("table.txt");
     for(int a = 0; a < 4; a++)
         cout << table[a] << endl;
     if(draw)
